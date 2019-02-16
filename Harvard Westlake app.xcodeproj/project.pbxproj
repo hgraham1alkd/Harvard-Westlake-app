@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790CC6682218848700F0922B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CC6672218848700F0922B /* AppDelegate.swift */; };
+		790CC66A2218848700F0922B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CC6692218848700F0922B /* ViewController.swift */; };
+		790CC66D2218848700F0922B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790CC66B2218848700F0922B /* Main.storyboard */; };
+		790CC66F2218848900F0922B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790CC66E2218848900F0922B /* Assets.xcassets */; };
+		790CC6722218848900F0922B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790CC6702218848900F0922B /* LaunchScreen.storyboard */; };
+		790CC67D2218848900F0922B /* Harvard_Westlake_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CC67C2218848900F0922B /* Harvard_Westlake_appTests.swift */; };
+		790CC6882218848900F0922B /* Harvard_Westlake_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CC6872218848900F0922B /* Harvard_Westlake_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790CC6792218848900F0922B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790CC65C2218848700F0922B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790CC6632218848700F0922B;
+			remoteInfo = "Harvard Westlake app";
+		};
+		790CC6842218848900F0922B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790CC65C2218848700F0922B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790CC6632218848700F0922B;
+			remoteInfo = "Harvard Westlake app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		790CC6642218848700F0922B /* Harvard Westlake app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harvard Westlake app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CC6672218848700F0922B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		790CC6692218848700F0922B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		790CC66C2218848700F0922B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		790CC66E2218848900F0922B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		790CC6712218848900F0922B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		790CC6732218848900F0922B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790CC6782218848900F0922B /* Harvard Westlake appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harvard Westlake appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CC67C2218848900F0922B /* Harvard_Westlake_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvard_Westlake_appTests.swift; sourceTree = "<group>"; };
+		790CC67E2218848900F0922B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790CC6832218848900F0922B /* Harvard Westlake appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harvard Westlake appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CC6872218848900F0922B /* Harvard_Westlake_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvard_Westlake_appUITests.swift; sourceTree = "<group>"; };
+		790CC6892218848900F0922B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790CC6612218848700F0922B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CC6752218848900F0922B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CC6802218848900F0922B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790CC65B2218848700F0922B = {
+			isa = PBXGroup;
+			children = (
+				790CC6662218848700F0922B /* Harvard Westlake app */,
+				790CC67B2218848900F0922B /* Harvard Westlake appTests */,
+				790CC6862218848900F0922B /* Harvard Westlake appUITests */,
+				790CC6652218848700F0922B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790CC6652218848700F0922B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790CC6642218848700F0922B /* Harvard Westlake app.app */,
+				790CC6782218848900F0922B /* Harvard Westlake appTests.xctest */,
+				790CC6832218848900F0922B /* Harvard Westlake appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790CC6662218848700F0922B /* Harvard Westlake app */ = {
+			isa = PBXGroup;
+			children = (
+				790CC6672218848700F0922B /* AppDelegate.swift */,
+				790CC6692218848700F0922B /* ViewController.swift */,
+				790CC66B2218848700F0922B /* Main.storyboard */,
+				790CC66E2218848900F0922B /* Assets.xcassets */,
+				790CC6702218848900F0922B /* LaunchScreen.storyboard */,
+				790CC6732218848900F0922B /* Info.plist */,
+			);
+			path = "Harvard Westlake app";
+			sourceTree = "<group>";
+		};
+		790CC67B2218848900F0922B /* Harvard Westlake appTests */ = {
+			isa = PBXGroup;
+			children = (
+				790CC67C2218848900F0922B /* Harvard_Westlake_appTests.swift */,
+				790CC67E2218848900F0922B /* Info.plist */,
+			);
+			path = "Harvard Westlake appTests";
+			sourceTree = "<group>";
+		};
+		790CC6862218848900F0922B /* Harvard Westlake appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				790CC6872218848900F0922B /* Harvard_Westlake_appUITests.swift */,
+				790CC6892218848900F0922B /* Info.plist */,
+			);
+			path = "Harvard Westlake appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790CC6632218848700F0922B /* Harvard Westlake app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CC68C2218848900F0922B /* Build configuration list for PBXNativeTarget "Harvard Westlake app" */;
+			buildPhases = (
+				790CC6602218848700F0922B /* Sources */,
+				790CC6612218848700F0922B /* Frameworks */,
+				790CC6622218848700F0922B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harvard Westlake app";
+			productName = "Harvard Westlake app";
+			productReference = 790CC6642218848700F0922B /* Harvard Westlake app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790CC6772218848900F0922B /* Harvard Westlake appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CC68F2218848900F0922B /* Build configuration list for PBXNativeTarget "Harvard Westlake appTests" */;
+			buildPhases = (
+				790CC6742218848900F0922B /* Sources */,
+				790CC6752218848900F0922B /* Frameworks */,
+				790CC6762218848900F0922B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790CC67A2218848900F0922B /* PBXTargetDependency */,
+			);
+			name = "Harvard Westlake appTests";
+			productName = "Harvard Westlake appTests";
+			productReference = 790CC6782218848900F0922B /* Harvard Westlake appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		790CC6822218848900F0922B /* Harvard Westlake appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CC6922218848900F0922B /* Build configuration list for PBXNativeTarget "Harvard Westlake appUITests" */;
+			buildPhases = (
+				790CC67F2218848900F0922B /* Sources */,
+				790CC6802218848900F0922B /* Frameworks */,
+				790CC6812218848900F0922B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790CC6852218848900F0922B /* PBXTargetDependency */,
+			);
+			name = "Harvard Westlake appUITests";
+			productName = "Harvard Westlake appUITests";
+			productReference = 790CC6832218848900F0922B /* Harvard Westlake appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790CC65C2218848700F0922B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Helen Graham";
+				TargetAttributes = {
+					790CC6632218848700F0922B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					790CC6772218848900F0922B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 790CC6632218848700F0922B;
+					};
+					790CC6822218848900F0922B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 790CC6632218848700F0922B;
+					};
+				};
+			};
+			buildConfigurationList = 790CC65F2218848700F0922B /* Build configuration list for PBXProject "Harvard Westlake app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790CC65B2218848700F0922B;
+			productRefGroup = 790CC6652218848700F0922B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790CC6632218848700F0922B /* Harvard Westlake app */,
+				790CC6772218848900F0922B /* Harvard Westlake appTests */,
+				790CC6822218848900F0922B /* Harvard Westlake appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790CC6622218848700F0922B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CC6722218848900F0922B /* LaunchScreen.storyboard in Resources */,
+				790CC66F2218848900F0922B /* Assets.xcassets in Resources */,
+				790CC66D2218848700F0922B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CC6762218848900F0922B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CC6812218848900F0922B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790CC6602218848700F0922B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CC66A2218848700F0922B /* ViewController.swift in Sources */,
+				790CC6682218848700F0922B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CC6742218848900F0922B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CC67D2218848900F0922B /* Harvard_Westlake_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CC67F2218848900F0922B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CC6882218848900F0922B /* Harvard_Westlake_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790CC67A2218848900F0922B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790CC6632218848700F0922B /* Harvard Westlake app */;
+			targetProxy = 790CC6792218848900F0922B /* PBXContainerItemProxy */;
+		};
+		790CC6852218848900F0922B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790CC6632218848700F0922B /* Harvard Westlake app */;
+			targetProxy = 790CC6842218848900F0922B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		790CC66B2218848700F0922B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790CC66C2218848700F0922B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		790CC6702218848900F0922B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790CC6712218848900F0922B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790CC68A2218848900F0922B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		790CC68B2218848900F0922B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790CC68D2218848900F0922B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harvard Westlake app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw.Harvard-Westlake-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		790CC68E2218848900F0922B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harvard Westlake app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw.Harvard-Westlake-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		790CC6902218848900F0922B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harvard Westlake appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw.Harvard-Westlake-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harvard Westlake app.app/Harvard Westlake app";
+			};
+			name = Debug;
+		};
+		790CC6912218848900F0922B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harvard Westlake appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw.Harvard-Westlake-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harvard Westlake app.app/Harvard Westlake app";
+			};
+			name = Release;
+		};
+		790CC6932218848900F0922B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harvard Westlake appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw.Harvard-Westlake-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harvard Westlake app";
+			};
+			name = Debug;
+		};
+		790CC6942218848900F0922B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harvard Westlake appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw.Harvard-Westlake-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harvard Westlake app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790CC65F2218848700F0922B /* Build configuration list for PBXProject "Harvard Westlake app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CC68A2218848900F0922B /* Debug */,
+				790CC68B2218848900F0922B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CC68C2218848900F0922B /* Build configuration list for PBXNativeTarget "Harvard Westlake app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CC68D2218848900F0922B /* Debug */,
+				790CC68E2218848900F0922B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CC68F2218848900F0922B /* Build configuration list for PBXNativeTarget "Harvard Westlake appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CC6902218848900F0922B /* Debug */,
+				790CC6912218848900F0922B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CC6922218848900F0922B /* Build configuration list for PBXNativeTarget "Harvard Westlake appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CC6932218848900F0922B /* Debug */,
+				790CC6942218848900F0922B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790CC65C2218848700F0922B /* Project object */;
+}
